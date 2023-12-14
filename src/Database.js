@@ -27,11 +27,6 @@ export async function getVans() {
     return vans
 }
 
-export async function VanDetails(){
-
-}
-
-
 
 
 // export async function getVans(id) {

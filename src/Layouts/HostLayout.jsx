@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Outlet } from 'react-router-dom'
 // import Host from '../Components/Host/Host'
+import '../Components/Host/Host.css'
 
 export default function HostLayout (){
     return (

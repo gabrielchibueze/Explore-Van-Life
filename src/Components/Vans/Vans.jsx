@@ -67,11 +67,11 @@ export default function Vans (){
         <div className="vans-page">
             <h1 className="top">Explore our van options</h1>
             <div className="van-type-filter">
-                <button onClick={()=>handleFilterVans("type", "simple")} className={`van-filter simple ${typeFilter === "simple" ? "selected-simple" : ""}`}>Simple</button>
+                <button onClick={()=>handleFilterVans("type", "simple")} className={`van-filter  ${typeFilter === "simple" ? "selected-simple" : ""}`}>Simple</button>
 
-                <button onClick={()=>handleFilterVans("type", "rugged")} className={`van-filter rugged ${typeFilter === "rugged" ? "selected-rugged" : ""}`}>Rugged</button>
+                <button onClick={()=>handleFilterVans("type", "rugged")} className={`van-filter  ${typeFilter === "rugged" ? "selected-rugged" : ""}`}>Rugged</button>
 
-                <button onClick={()=>handleFilterVans("type", "luxury")} className={`van-filter luxury ${typeFilter === "luxury" ? "selected-luxury" : ""}`}>Luxury</button>
+                <button onClick={()=>handleFilterVans("type", "luxury")} className={`van-filter  ${typeFilter === "luxury" ? "selected-luxury" : ""}`}>Luxury</button>
                 
                 {typeFilter ? (<button className="clear-van-filter" onClick={()=>handleFilterVans("type", null)}>Clear filter</button>)
                 : null }

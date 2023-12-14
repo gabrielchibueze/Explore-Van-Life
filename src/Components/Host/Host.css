@@ -2,19 +2,22 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    /* height: 100%; */
 }
 
 .host-page {
     display: flex;
     flex-wrap: wrap;
     gap: 0.6rem;
+    height: 100%;
 }
-.host-all {
+.host-vans-page {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    height: 20px;
+    /* height: 20px; */
     margin: 0px;
+    flex-direction: column;
 }
 .host-page > a {
     width: fit-content;
@@ -24,4 +27,129 @@
     border-radius: 0.3rem;
     height: fit-content;
     margin: 0px;
+}
+.host-vans{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.host-van-page {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.host-van-list {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    gap: 1rem;
+    border-bottom: 2px rgb(202, 185, 185) solid;
+    padding: 1rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    max-width: 500px;
+    align-items: center;
+}
+
+.host-van-list-image {
+ width: 35%;
+ height: 100px;
+ border-radius: 0.3rem;
+}
+
+.host-van-list-name, .host-van-list-price {
+    margin: 0.5rem 0px;
+    font-weight: bold;
+}
+.host-van-list-price{
+    margin: 0px 0px 0.3rem 0px;
+    line-height: 1.5;
+}
+
+.host-van-list-type {
+    color: rgb(97, 9, 9);
+    margin: 0rem;
+}
+
+/* Host Van Detail Page Design */
+.host-van-Details-page {
+    background-color: rgba(247, 248, 250, 0.781);
+    padding: 2rem;
+    margin: 0 auto;
+}
+.host-van-detail {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    max-width: 500px;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.host-van-detail-image {
+ width: 150px;
+ height: 120px;
+ border-radius: 0.3rem;
+}
+
+.host-van-detail-name, .host-van-detail-price {
+    margin: 0.7rem 0px;
+    font-weight: bold;
+}
+.host-van-detail-name {
+    font-size: 1.3rem;
+}
+.host-van-detail-price{
+    margin: 0px 0px 0.2rem 0px;
+    line-height: 1.5;
+}
+
+.simple {
+    background-color: rgb(12, 34, 109);
+}
+.rugged {
+    background-color: black;
+}
+.luxury {
+    background-color: rgb(56, 82, 18);
+}
+
+.host-van-detail-type {
+    color: rgb(212, 204, 204);
+    padding: 0.2rem 0.6rem;
+    margin: 0rem;
+    width: fit-content;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+
+}
+.back-to-vans {
+    padding: 0px;
+    margin: 0px;
+}
+
+.span {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(19, 15, 15);
+}
+.host-van-description {
+    max-width: 500px;
+}
+.host-van-others {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.host-van-photo {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
 }

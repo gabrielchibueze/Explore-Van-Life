@@ -249,6 +249,8 @@ input:hover {
   padding: 0.8rem;
 }
 
+/* Hos layout Page */
+
 @media (min-width: 799px){
   .about-van-image, .about-page {
     width: 500px;
