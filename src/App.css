@@ -66,6 +66,7 @@ footer {
   color: white;
   justify-content: space-around;
   flex-shrink: 0;
+  padding-bottom: 3rem;
 }
 .footer-left{
   display: flex;
